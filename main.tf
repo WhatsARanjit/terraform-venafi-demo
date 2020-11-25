@@ -53,7 +53,7 @@ resource "docker_container" "nginx" {
   }
 
   upload {
-    source = "files/background.jpg"
-    file   = "/var/www/background.jpg"
+    source = "files/background.png"
+    file   = "/var/www/background.png"
   }
 }
